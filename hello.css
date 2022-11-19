@@ -5,3 +5,13 @@ h1{
 h2{
     color:red;
 }
+
+/* psudo Element */
+h2::first-letter{
+    color:blue;
+}
+
+h2:hover{
+    color:orange;
+    font-size:100px;
+}
